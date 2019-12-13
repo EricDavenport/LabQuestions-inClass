@@ -23,6 +23,7 @@
 		576D0E5D23A1B2B2002D6E16 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576D0E5C23A1B2B2002D6E16 /* String+Extensions.swift */; };
 		5880F57923A2AE8600D90F7F /* LabQuestionsAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5880F57823A2AE8600D90F7F /* LabQuestionsAPIClient.swift */; };
 		5880F57B23A2AF0C00D90F7F /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5880F57A23A2AF0C00D90F7F /* Question.swift */; };
+		58C83C9923A3E560002C485D /* PostedQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C83C9823A3E560002C485D /* PostedQuestion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		576D0E5C23A1B2B2002D6E16 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 		5880F57823A2AE8600D90F7F /* LabQuestionsAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LabQuestionsAPIClient.swift; path = "LabQuestions/Network Services/LabQuestionsAPIClient.swift"; sourceTree = SOURCE_ROOT; };
 		5880F57A23A2AF0C00D90F7F /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		58C83C9823A3E560002C485D /* PostedQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostedQuestion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 			children = (
 				573109CE23A08CBA00635ECE /* AppError.swift */,
 				573109CF23A08CBB00635ECE /* NetworkHelper.swift */,
+				5880F57823A2AE8600D90F7F /* LabQuestionsAPIClient.swift */,
 			);
 			path = "Network Services";
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				5880F57A23A2AF0C00D90F7F /* Question.swift */,
+				58C83C9823A3E560002C485D /* PostedQuestion.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -161,7 +165,6 @@
 				576D0E5C23A1B2B2002D6E16 /* String+Extensions.swift */,
 				5768048923A1CF8300571F2F /* UIImageView+Extensions.swift */,
 				5723DE3B23A2471000C0E768 /* UIViewController+Alerts.swift */,
-				5880F57823A2AE8600D90F7F /* LabQuestionsAPIClient.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58C83C9923A3E560002C485D /* PostedQuestion.swift in Sources */,
 				573109D023A08CBB00635ECE /* AppError.swift in Sources */,
 				573109B123A08C1000635ECE /* LabQuestionsController.swift in Sources */,
 				5768048623A1C40100571F2F /* CreateQuestionController.swift in Sources */,

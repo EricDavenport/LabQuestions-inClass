@@ -66,13 +66,26 @@
                         <viewLayoutGuide key="safeArea" id="qrN-3q-BgG"/>
                     </view>
                     <navigationItem key="navigationItem" title="Create Question" id="40G-VI-Fej">
-                        <barButtonItem key="leftBarButtonItem" title="Cancel" id="seR-oK-E7I"/>
-                        <barButtonItem key="rightBarButtonItem" title="Create" id="1sf-pM-d7w"/>
+                        <barButtonItem key="leftBarButtonItem" title="Cancel" id="seR-oK-E7I">
+                            <connections>
+                                <action selector="cancel:" destination="04E-ax-osA" id="KdP-of-mus"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Create" id="1sf-pM-d7w">
+                            <connections>
+                                <action selector="createWith_sender:" destination="04E-ax-osA" id="HPM-p7-uli"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="labPickerView" destination="YMj-8j-OEz" id="eJe-MJ-gcc"/>
+                        <outlet property="questionTestView" destination="Urh-bm-bj7" id="8XW-2U-UGg"/>
+                        <outlet property="titleTextField" destination="cUH-Jx-5oT" id="NCY-m4-QEv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kla-1h-wTQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1760.8695652173915" y="-581.25"/>
+            <point key="canvasLocation" x="1667" y="-581"/>
         </scene>
         <!--Lab Questions-->
         <scene sceneID="tne-QT-ifu">
